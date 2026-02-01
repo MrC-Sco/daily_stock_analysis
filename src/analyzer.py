@@ -494,7 +494,7 @@ class GeminiAnalyzer:
             api_key: Gemini API Key（可选，默认从配置读取）
         """
         config = get_config()
-        self._api_key = api_key or config.gemini_api_key
+        self._api_key = AIzaSyDLeTCsTZlrnMC7eK4Ow2R9JvcLTJI3LWs or config.gemini_api_key
         self._model = None
         self._current_model_name = None  # 当前使用的模型名称
         self._using_fallback = False  # 是否正在使用备选模型
