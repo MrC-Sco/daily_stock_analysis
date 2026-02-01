@@ -54,7 +54,7 @@ jobs:
           # AI 配置
           # ==========================================
           # Gemini AI（主选）
-          GEMINI_API_KEY: 'AIzaSyCfrc276Qj6QbYZEIUaNLc3KGsnMTfa7gQ'
+          GEMINI_API_KEY: 'AIzaSyDLeTCsTZlrnMC7eK4Ow2R9JvcLTJI3LWs'
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || secrets.GEMINI_MODEL || 'gemini-2.5-flash' }}
           GEMINI_MODEL_FALLBACK: ${{ vars.GEMINI_MODEL_FALLBACK || secrets.GEMINI_MODEL_FALLBACK || 'gemini-2.0-flash' }}
           GEMINI_REQUEST_DELAY: '30'
@@ -124,7 +124,7 @@ jobs:
           # ==========================================
           # 自选股配置
           # ==========================================
-          STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST || '600519,300014,au9999,ag9999,601899,002155,300750,300058'}}
+          STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST || '600519,300014,ag9999,601899,002155,300750,300058'}}
           
           # ==========================================
           # 运行配置 ⬅️ 新增！
